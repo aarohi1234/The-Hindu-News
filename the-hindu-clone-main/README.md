@@ -1,7 +1,6 @@
 
 # Project Description
-
-This is a clone of newspaper website called The Hindu.
+ a clone of newspaper website  The Hindu news.
 
 ## Features
 
