@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../Styles/Footer.module.css";
+import styles from "../Styles/Footer.module.css";
 import {
     FaFacebookF,
     FaTwitter,
@@ -40,7 +40,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <img
-                        src="https://th.thgim.com/static/theme/default/base/img/logo.png"
+                        src="https://www.thehindu.com/theme/images/th-online/logo.png"
                         alt="logo"
                     />
                 </div>

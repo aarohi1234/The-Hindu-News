@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "../../Styles/Footer.module.css";
+import styles from "../Styles/Footer.module.css";
 
 const Trendings = () => {
     return (
