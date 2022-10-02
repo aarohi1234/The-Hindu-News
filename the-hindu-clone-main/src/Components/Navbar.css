@@ -2,3 +2,12 @@
     background: white;
     color: gray;
 }
+.chakra-text:hover{
+    cursor: pointer;
+    background-color: bisque;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+* ::selection{
+    background-color: rgb(43, 161, 240);
+}
