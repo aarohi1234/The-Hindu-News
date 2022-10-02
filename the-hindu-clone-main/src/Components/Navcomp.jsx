@@ -15,7 +15,7 @@ export function Todayspaper(){
       role='button'
       aria-label='Some box'
       p={3}
-    //   w='120px'
+   
       bg='white'
       children="TODAY'S PAPER"
       color='gray.500'
@@ -36,7 +36,7 @@ export function News(){
       role='button'
       aria-label='Some box'
       p={3}
-    //   w='120px'
+   
       bg='white'
       children="NEWS"
       color='gray.500'
@@ -44,9 +44,9 @@ export function News(){
     />
   </PopoverTrigger>
   <PopoverContent bg='while' color='black' w="150px">
-    {/* <PopoverHeader fontWeight='semibold'>Customization</PopoverHeader> */}
+   
     <PopoverArrow bg='white' />
-    {/* <PopoverCloseButton bg='white' /> */}
+   
     <PopoverBody>
     
       <Text as="p">INDIA</Text>
@@ -71,16 +71,16 @@ export function Opinion(){
       role='button'
       aria-label='Some box'
       p={3}
-    //   w='120px'
+   
       bg='white'
       children="OPINION"
       color='gray.500'
     />
   </PopoverTrigger>
   <PopoverContent bg='while' color='black' w="150px">
-    {/* <PopoverHeader fontWeight='semibold'>Customization</PopoverHeader> */}
+  
     <PopoverArrow bg='white' />
-    {/* <PopoverCloseButton bg='white' /> */}
+   
     <PopoverBody>
     
       <Text as="p">CARTOONS</Text>
@@ -110,16 +110,16 @@ export function Business(){
       role='button'
       aria-label='Some box'
       p={3}
-    //   w='120px'
+    
       bg='white'
       children="BUSINESS"
       color='gray.500'
     />
   </PopoverTrigger>
   <PopoverContent bg='while' color='black' w="150px">
-    {/* <PopoverHeader fontWeight='semibold'>Customization</PopoverHeader> */}
+  
     <PopoverArrow bg='white' />
-    {/* <PopoverCloseButton bg='white' /> */}
+  
     <PopoverBody>
     
       <Text as="p">AGRI-BUSINESS</Text>
@@ -146,16 +146,16 @@ export function Sport(){
       role='button'
       aria-label='Some box'
       p={3}
-    //   w='120px'
+  
       bg='white'
       children="SPORT"
       color='gray.500'
     />
   </PopoverTrigger>
   <PopoverContent bg='while' color='black' w="150px">
-    {/* <PopoverHeader fontWeight='semibold'>Customization</PopoverHeader> */}
+    
     <PopoverArrow bg='white' />
-    {/* <PopoverCloseButton bg='white' /> */}
+   
     <PopoverBody>
     
       <Text as="p">CRICKET</Text>
@@ -185,16 +185,16 @@ export function Entertainment(){
     role='button'
     aria-label='Some box'
     p={3}
-  //   w='120px'
+
     bg='white'
     children="ENTERTAINMENT"
     color='gray.500'
   />
 </PopoverTrigger>
 <PopoverContent bg='while' color='black' w="150px">
-  {/* <PopoverHeader fontWeight='semibold'>Customization</PopoverHeader> */}
+
   <PopoverArrow bg='white' />
-  {/* <PopoverCloseButton bg='white' /> */}
+
   <PopoverBody>
   
     <Text as="p">ART</Text>

@@ -1,6 +1,6 @@
 import {Box,Button,Heading, Text,Image} from "@chakra-ui/react"
-import "./Gettrial.css"
-export function Gettrial(){
+import "./GetTrial.css"
+export function GetTrial(){
     return <Box h="670px"display="flex" bg="#133B5A">
         <Box w="50%" border="1px green">
             <Heading color="white" fontSize="34px" mt="50px" mb="10px" fontFamily="TundraWeb-MediumW03-Regular">Start your 14-day Free Trial!</Heading>

@@ -35,14 +35,14 @@ export default function Login() {
       <Modal isOpen={modal1.isOpen} onClose={modal1.onClose}>
         <ModalOverlay />
         <ModalContent>
-          {/* <ModalHeader>Modal Title</ModalHeader> */}
+         
           
           <ModalCloseButton />
           <ModalBody w="80%" m="auto">
             <a href="https://mail.google.com"><Button w="100%" border="1px solid gray" borderRadius="0px" bg="white" mt="20px"><Box w="15px" h="15px" mr="15px"><Image h="100%" w="100%"src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png" alt="google"/></Box>
             Continue with Google</Button></a>
             <a href="https://www.apple.com"><Button w="100%" border="1px solid gray" borderRadius="0px" bg="white" mt="10px" mb="70px"><Box w="15px" h="15px" mr="15px"><Image h="100%" w="100%"src="https://cdn.icon-icons.com/icons2/936/PNG/512/apple-logo_icon-icons.com_73680.png" alt="google"/></Box>Continue with Apple</Button></a>
-            {/* <Lorem count={2} /> */}
+          
             <FormControl>
               <Input w="100%" ref={initialRef} placeholder='Enter email address and hit enter' mb="15px" onChange={(e)=>setEmail(e.target.value)} />
             </FormControl>
@@ -55,21 +55,20 @@ export default function Login() {
           </ModalBody>
 
           <ModalFooter>
-            {/* <Button colorScheme='blue' mr={3} onClick={modal1.onClose}>
-              Close
-            </Button> */}
+           
+             
             
             <Button onClick={modal2.onOpen} variant='ghost' m="auto" mt="-20px" fontSize="17px" color="gray.600">Sign up {">"}</Button>
             <Modal isOpen={modal2.isOpen} onClose={modal2.onClose}>
         <ModalOverlay />
         <ModalContent>
-          {/* <ModalHeader>Modal Title</ModalHeader> */}
+         
           <ModalCloseButton />
           <ModalBody w="80%" m="auto">
           <a href="https://mail.google.com"><Button w="100%" border="1px solid gray" borderRadius="0px" bg="white" mt="20px"><Box w="15px" h="15px" mr="15px"><Image h="100%" w="100%"src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png" alt="google"/></Box>
             Continue with Google</Button></a>
             <a href="https://www.apple.com"><Button w="100%" border="1px solid gray" borderRadius="0px" bg="white" mt="10px" mb="70px"><Box w="15px" h="15px" mr="15px"><Image h="100%" w="100%"src="https://cdn.icon-icons.com/icons2/936/PNG/512/apple-logo_icon-icons.com_73680.png" alt="google"/></Box>Continue with Apple</Button></a>
-            {/* <Lorem count={2} /> */}
+          
             <FormControl>
               <Input w="100%" ref={initialRef} placeholder='Enter email address and hit enter' mb="15px" onChange={(e)=>setEmail(e.target.value)} />
             </FormControl>

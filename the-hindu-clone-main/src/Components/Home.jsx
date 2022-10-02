@@ -11,27 +11,14 @@ export default function Home(){
         let data=await res.json();
         setData(data.articles)
     }
-    // let [sample,setSample]=useState(1)
-    // function getData(){
-    // fetch()
-    // .then((res)=>res.json())
-    // .then((res)=>setData(res.articles))
-    // .catch((err)=>console.log(err))
+   
     
-    // }
     useEffect(()=>{
-        // setTimeout(getData(),1000)
+        
         getData()
         
     },[])
-    // window.onbeforeunload=()=>{
-    //     localStorage.setItem("sample",JSON.stringify(sample))
-    // }
-    // window.onload=()=>{
-    //     let x=JSON.parse(localStorage.getItem("sample"))
-    //     setSample(x)
-    //     sample++
-    // }
+  
     console.log(data)
     // console.log(data[0].urlToImage)
     return<Box display="flex">
